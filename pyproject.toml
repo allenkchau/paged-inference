@@ -1,0 +1,10 @@
+[project]
+name = "paged-inference"
+version = "0.1.0"
+description = "Inference engine using paged attention"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pytest>=9.0.2",
+    "torch>=2.10.0",
+]
