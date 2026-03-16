@@ -8,7 +8,7 @@ prompts = [
 ]
 sampling_params = SamplingParams(temperature=0.8, top_p=0.95)
 
-llm = LLM(model="facebook/opt-125m")
+llm = LLM(model="mistralai/Mistral-7B-Instruct-v0.3", trust_remote_code=True)
 
 outputs = llm.generate(prompts, sampling_params)
 
